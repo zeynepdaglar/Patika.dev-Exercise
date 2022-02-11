@@ -1,0 +1,194 @@
+body {
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
+.heading{
+    height: 90px;
+    background-color:rgb(247, 246, 242);
+}
+.heading-text {
+    color:rgb(66, 72, 116);
+    width: 260px;
+    padding-top: 10px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+.nav-table{
+    /*üstten boşluk*/
+    padding-top: 10px;
+    /*ortalamak*/
+    margin-left:auto;
+    margin-right:auto;
+    /*sütunlar arası boşluk*/
+    width: 90%;
+}
+a{
+    /*linklerin altında çizgi vs. olmaması için*/
+    text-decoration: none;
+    color:rgb(66, 72, 116);
+}
+.navbar{
+    height: 40px;
+    background-color:rgb(247, 246, 242);
+   
+}
+/*article 1 start*/
+.article{
+     height: 55vw;
+}
+.img{
+   position: relative;
+   width: 100%;
+}
+.card-1{
+    position: absolute;
+    height: 55vw;
+    width:40vw;
+    padding-top: 4vw;
+}
+.imgHeading{
+    position: relative;
+    color: white;
+    /*responsive*/
+    font-size: 6vw;
+    left: 35vw;
+    bottom: 44vw;
+    width: 40vw;
+    /*tüm yazıyı büyük harf yapar*/
+    text-transform: uppercase;
+
+}
+.imgParagraph{
+    position: relative; 
+    color:white;
+    /*responsive*/
+    font-size: 2vw;
+    left: 33vw;
+    bottom: 45vw;
+
+
+}
+/*Shop Now Buton*/
+.shopNow{
+    position: relative;
+    font-size: 2vw;
+    left: 43vw;
+    bottom: 10vw;
+    width: 15vw;
+    padding: 5px;
+    /*yuvarlak kenarlar*/
+    border-radius: 10vw;
+    /*kenarlık rengi*/
+    border-color: rgba(0, 0, 0, 0);
+    /*yazı rengi*/
+    color: white;
+    background-color:rgba(0, 0, 0, 0.205);
+}
+/*article 1 end*/
+
+/*article 2 start*/
+.article-lilac{
+    background-color: #E0D9FF;
+}
+.card-2{
+    position: absolute;
+    height: 55vw;
+    width:40vw;
+    padding-top: 4vw;
+}
+.card-img{
+    position: absolute;
+    height: 35vw;
+    left: 5vw;
+
+}
+.card-img2{
+    position: absolute;
+    height: 47vw;
+    left: 50vw;
+    bottom:9vw;
+
+}
+.card-heading{
+    position: absolute;
+    width: 25vw;
+    left: 9vw;
+    top: 38vw;
+    font-size: 3vw;
+}
+.card-paragraph{
+    position: absolute;
+    width: 30vw;
+    left: 9vw;
+    top: 46vw;
+    font-size: 2vw;
+}
+.see-all{
+    position: relative;
+    font-size: 2vw;
+    left: 64vw;
+    top:39vw;
+    width: 15vw;
+    padding: 5px;
+    /*yuvarlak kenarlar*/
+    border-radius: 10vw;
+    /*kenarlık rengi*/
+    border-color: rgba(0, 0, 0, 0);
+    /*yazı rengi*/
+    color: white;
+    background-color:rgba(0, 0, 0, 0.205);
+}
+/*article 2 end*/
+
+/*article 3 start*/
+.card-3{
+    position: absolute;
+    height: 55vw;
+    width:50vw;
+    padding-top: 4vw;
+}
+.img-heading2{
+    position: relative;
+    color: white;
+    /*responsive*/
+    font-size: 5vw;
+    left: 25vw;
+    bottom: 40vw;
+    width: 50vw;
+    /*tüm yazıyı büyük harf yapar*/
+    text-transform: uppercase;
+}
+.SignMeUp{
+    position: relative;
+    font-size: 2vw;
+    left: 40vw;
+    bottom: 15vw;
+    width: 15vw;
+    padding: 5px;
+    /*yuvarlak kenarlar*/
+    border-radius: 10vw;
+    /*kenarlık rengi*/
+    border-color: rgba(0, 0, 0, 0);
+    /*yazı rengi*/
+    color: white;
+    background-color:rgba(0, 0, 0, 0.205);
+}
+/*article 3 end*/
+
+.footer{
+    height: 10vw; 
+    background-color:rgb(247, 246, 242);
+}
+
+/*product page*/
+.article-blue{
+    background-color:#BADBF3
+}
+.article-green{
+    background-color: #B9D6C0;
+}
+
+.page-link{
+    color: white;
+}

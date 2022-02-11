@@ -1,0 +1,49 @@
+.head{
+    margin-left: auto;
+    margin-right: auto;
+    /*resmin genişliği kadar*/
+    width: 351px;
+}
+
+.article-margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grey{
+    background-color:  rgb(238, 238, 238);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.paragraph1{
+    margin: 0px;
+}
+
+.width{
+width: 317px;
+}
+
+td:first-child{
+    background-color: rgb(126, 229, 218);
+}
+
+td:nth-child(2){
+    background-color: rgb(112, 204, 194);
+}
+
+td:last-child{
+    background-color: rgb(98, 179, 170);
+}
+
+table {
+    width: 100%;
+  }
+  
+  td, th {
+    /*iç boşluk*/
+    padding: 8px;
+  }
+  

@@ -1,0 +1,44 @@
+body{
+    background-color: #F2EFE3;;
+}
+footer {
+    color: #fff;
+}
+ul {
+    padding: 0px;
+}
+ol, ul {
+    margin-bottom: 0px;
+}
+.card{
+    background-color: transparent;
+}
+
+.footer-top {
+    background: #2f2f2f;
+    padding: 10px;
+}
+.footer-top h4 {
+    position: absolute;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 65px;
+}
+.footer-top p {
+    font-size: 13px;
+    line-height: 2;
+}
+.address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 34px;
+    line-height: 26px;
+    float: right;
+}
+
+.address1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
