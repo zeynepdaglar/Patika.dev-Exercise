@@ -1,0 +1,16 @@
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.exe
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.deps.json
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.runtimeconfig.json
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.dll
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\ref\Switch-Case-P.dll
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\bin\Debug\net5.0\Switch-Case-P.pdb
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.AssemblyInfo.cs
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.dll
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\ref\Switch-Case-P.dll
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.pdb
+C:\Users\admin\source\repos\Switch-Case-P\Switch-Case-P\obj\Debug\net5.0\Switch-Case-P.genruntimeconfig.cache

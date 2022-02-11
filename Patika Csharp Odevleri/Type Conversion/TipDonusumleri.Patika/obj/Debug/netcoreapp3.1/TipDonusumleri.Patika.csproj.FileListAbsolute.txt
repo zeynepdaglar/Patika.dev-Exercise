@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.exe
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.deps.json
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.runtimeconfig.json
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.runtimeconfig.dev.json
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.dll
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\bin\Debug\netcoreapp3.1\TipDonusumleri.Patika.pdb
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.AssemblyInfo.cs
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.dll
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.pdb
+C:\Users\admin\source\repos\TipDonusumleri.Patika\TipDonusumleri.Patika\obj\Debug\netcoreapp3.1\TipDonusumleri.Patika.genruntimeconfig.cache
