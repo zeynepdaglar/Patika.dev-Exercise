@@ -30,7 +30,7 @@ counter /= 2;
 // sayı 2 ye tam bölünüyorsa kalan yoksa çifttir
 console.log(10 % 2); //cevap 0 sayı çift
 console.log(9 % 2); //cevap(kalan) 1, sayı tek
-// sayı 3 e tam bölünüyorsa tektir
+
 
 
 // üs alma
