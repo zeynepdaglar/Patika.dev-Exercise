@@ -33,3 +33,12 @@ function sayGoodbye(firstname=""){
     console.log(`Goodbye :( ${firstname}`);
 }
 sayGoodbye("zeynep");
+
+// 4)
+//Burada global değişken ve parametreye aynı gibi gözüksede fonksiyon içerisindeki parametre kullanılır
+//global degişkenin burada bir etkisi  yoktur
+let surname ="sky";
+function sayBeautiful(surname=""){
+console.log(`You are beautiful ${surname} !`);
+}
+sayBeautiful("gloria");
