@@ -34,4 +34,10 @@ function cuttingFunction(event){
   console.log("etkinlik tipi: " , event.type)
   } 
   
-//console ekranı : etkinlik tipi: cut
+  //LocalStorage 
+  //yapılan değişikliklerin kaydının tutulmasına yarar
+// HTML 5 ile tarayıcılar iki tane yerel kayıt türünü desteklemektedir.
+// localStorage
+// sessionStorage
+// Bu iki kayıt türü arasındaki en temel fark localStorage kayıtları zaman aşımı olmaksızın tutarken sessionStorage kayıtları oturum sonlanana kadar ya da veri kaybolana kadar tutmaktadır
+  window.localStorage.setItem("key","value");
