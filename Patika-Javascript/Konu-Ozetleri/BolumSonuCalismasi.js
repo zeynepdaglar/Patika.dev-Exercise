@@ -1,4 +1,5 @@
-let counter = 0;
+
+let counter = document.querySelector('counter') ? Number(localStorage.getItem('counter')) : 0;
 let counterDOM = document.querySelector('#counter');
 let increaseDOM = document.querySelector('#increase');
 let decreaseDOM = document.querySelector('#decrease');
@@ -9,6 +10,9 @@ increaseDOM.addEventListener("click", clickEvent);
 decreaseDOM.addEventListener("click", clickEvent);
 
 function clickEvent(){
-    console.log(this.id);
-    this.id == "increase" ? counterDOM.innerHTML = counter +=1 : counterDOM.innerHTML -=1;
+   // console.log(this.id);
+   //console.log(typeof(counter));
+    this.id == "increase" ? counter +=1 : counter -=1;
+    localStorage.setItem('counter', counter);
+    counterDOM.innerHTML = counter ;
 }
