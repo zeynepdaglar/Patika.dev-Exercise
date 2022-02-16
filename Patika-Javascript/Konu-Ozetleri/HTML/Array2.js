@@ -1,5 +1,5 @@
 //Diziye eleman eklemek/çıkarmak
-let arr = [22, "Masal", "Savana", "Makaron",]
+let arr = [222, "Masal", "Savana", "Makaron",]
 console.log(`Dizinin elemanları: ${arr}`);
 
 //dizinin basına eleman eklemek 
@@ -17,3 +17,17 @@ console.log(`dizinin sonuna yeni eleman eklendi: ${lastPush}`);
 //sondan eleman silmek
 let lastPop = arr.pop()
 console.log(`dizinin sonundan silinen eleman: ${lastPop}`);
+
+//elemanları değiştirmek
+arr[0] = 22
+console.log(`ilk eleman değişti: ${arr[0]}`);
+arr[arr.length-1] = "gel"
+console.log(`son eleman değişti ${arr[arr.length-1]}`)
+
+
+// splice() metot
+// splice() metot diziye hem eleman eklemek için hem de eleman silmek için kullanılır. Metodun ilk parametresi işlemin yapılacağı index numarasını, ikinci parametre ise kaç elemanın silineceğini belirtir.
+  var sports = ['basketball', 'football', 'tennis' ];
+  console.log(sports); // basketball, football, tennis
+  sports.splice(1,0,'baseball');
+  console.log(sports); // basketball, baseball, football, tennis
