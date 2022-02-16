@@ -18,4 +18,8 @@ function fromSubmit(event){
     //default olarak uygulanan GET işlemini yapma dedik ve default işlemi engellemiş olduk
     event.preventDefault(); 
     console.log("işlem gerçekleşti");
+    // Input Değerini Alma
+    let scoreInputDOM = document.querySelector('#score');
+    console.log(scoreInputDOM.value);
+    localStorage.setItem('score', scoreInputDOM.value);
 }
