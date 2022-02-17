@@ -31,3 +31,11 @@ console.log(`son eleman değişti ${arr[arr.length-1]}`)
   console.log(sports); // basketball, football, tennis
   sports.splice(1,0,'baseball');
   console.log(sports); // basketball, baseball, football, tennis
+
+  //dizideki en buyuk elemanı bulmak
+  let numbers = [2, 35, 1, 56, 43, 4];
+  let big = Math.max(numbers); //Nan döndürür
+  let vBig = Math.max(...numbers);
+  console.log(`dizideki en buyuk sayı ${vBig}`);
+
+  
