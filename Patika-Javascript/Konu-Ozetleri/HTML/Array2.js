@@ -38,4 +38,9 @@ console.log(`son eleman değişti ${arr[arr.length-1]}`)
   let vBig = Math.max(...numbers);
   console.log(`dizideki en buyuk sayı ${vBig}`);
 
+    //dizideki en kucuk elemanı bulmak
+    let small = Math.min(numbers); //Nan döndürür
+    let vSmall = Math.min(...numbers);
+    console.log(`dizideki en küçük sayı ${vBig}`);
   
+    
