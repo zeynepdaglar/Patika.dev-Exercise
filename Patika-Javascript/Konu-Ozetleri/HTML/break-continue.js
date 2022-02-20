@@ -26,12 +26,18 @@ for(; counter < 10; counter++){
     }
 //çıktı: 1, 2, 3, 4, 6, 7, 8, 9
 
+//break-countinue.html dosyasında userList id sine sahip olanı seçtik ve UL_DOM içine koyduk
 const UL_DOM = document.querySelector('#userList');
 let index = 0;
 
 for(; index<LoremList.length; index++){
+//loremList elemanlarında dolor u görünce işlemleri bitir
 if(LoremList[index] === "dolor"){break}
+//document içerisine li elementleri oluştur
 let LI_DOM = document.createElement('li')
+//LI_DOM un inner html sinde LoremListin elemanları gözüksün
 LI_DOM.innerHTML = LoremList[index]
+//append ile UL_DOM un içerisine LI_DOM u ekliyoruz 
 UL_DOM.append(LI_DOM)
 }
+//Çıktı: lorem, ipsum
