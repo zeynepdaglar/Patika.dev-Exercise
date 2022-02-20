@@ -41,3 +41,28 @@ LI_DOM.innerHTML = LoremList[index]
 UL_DOM.append(LI_DOM)
 }
 //Çıktı: lorem, ipsum
+
+
+//Etiketli break Örneği
+//etiketli break ifadesi her ne kadar iç döngü içerisinde olsa dahi
+//etiketin başına konulduğu döngü için etki eder.
+//Böylece daha geniş çaplı bir dögüden çıkılmış oldu.
+cikis_etiketi: for (var i = 0; i <= 5; i++) {
+    for (var j = 0; j <= 50; j++) {
+      if (j == 9) {
+        break cikis_etiketi;
+      }
+      console.log("iç döngüden j :" + j);
+    }
+   }
+   
+   //Etiketli Continue Örneği
+   
+   gec_etiketi: for (var i = 0; i <=5; i++) {
+    for (var j = 0; j <= 4; j++) {
+      if (j == 2) {
+        continue gec_etiketi;
+      }
+      console.log("iç döngüden j :" + j);
+    }
+   }
