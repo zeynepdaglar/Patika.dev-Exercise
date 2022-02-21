@@ -14,6 +14,9 @@ const USER = [
 const ACTIVE_USER = USER.filter(item => item.isActive === true)
 console.log(`Aktif kullanıcılar: ${ACTIVE_USER}`)
 
+
+// Array Map
+// array.map( function(value, index, array), this)
 //biz bir şeye bakmak istediğimizde default olarak true ya bakar oyuzden ekstradan belirtmesekte olur
 // const ACTIVE_USER = USER.filter(item => item.isActive)
 
