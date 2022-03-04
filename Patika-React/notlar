@@ -1,0 +1,7 @@
+Virtual DOM Nedir?
+Gerçek DOM’a(real dom) karşılık gelen sanal bir DOM nesnesidir, yani render edilen DOM’un 
+bir kopyasıdır. React her state değişikliğinde render edilen gerçek DOM’u bütünüyle
+tekrar oluşturmak yerine, state değişikliğini Virtual DOM’a yansıtmaktadır. 
+Bu sayede gerçek DOM ile ve yeni sanal(virtual) DOM arasındaki farklılıkları tespit
+ederek, gerçek DOM’da yapılacak değişikleri hesaplar ve tek seferde sadece gerçek 
+DOM’da değişen elemanları yeniden render eder.
