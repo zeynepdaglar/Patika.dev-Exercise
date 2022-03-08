@@ -1,6 +1,6 @@
 const getComments = () => {
     //resolve: işlem gerçekleşti der ve datayı verir.
-    //reject: kodlar çalışırken bir sorun oluştu ve reddetti.
+    //reject: kodlar çalışırken bir sorun oluştu ve reddetti ve hatayı verebilir.
     return new Promise((resolve, reject) => {
         console.log("comment")
         reject();
@@ -15,7 +15,7 @@ const getComments = () => {
     //resolve: işlem gerçekleşti der ve datayı verir.
     //reject: kodlar çalışırken bir sorun oluştu ve reddetti.
     return new Promise((resolve, reject) => {
-        //resolve kısmına veriğimiz parametre then kısmına düşer, number, onje vs. kullanabiliriz.
+        //resolve kısmına veriğimiz parametre then kısmına düşer, number, obje vs. kullanabiliriz.
         resolve("comment");
     });
 };
