@@ -1,12 +1,13 @@
-// Bu fonksiyon **"async"** olarak tanımlanmalı ve default olarak dışa aktarılmalıdır.
-// Fonksiyon **Number** tipinde tek parametre alır. Bu parametre **user id**'yi belirtir.
-// Fonksiyonun görevi endpoint'e giderek parametrede verilen user id ile ilgili kullanıcının verilerini çekmek olmalı. İstekleri **"axios"** kütüphanesini kullanarak yapmanız gerekiyor.
+//projeye axios u dahil ediyoruz
 import axios from "axios";
 
-async function getData(number) {
-    const user = await (await fetch("https://jsonplaceholder.typicode.com/users/" + number)).json();
-    console.log("user: ", user);
+//default olarak dışa aktarılan bir async fonksiyon:
+export default async function getData(number) {
+    //gelen parametreye göre verileri çeker
+    const {data: user} = await axios("https://jsonplaceholder.typicode.com/users/" + number);
+    console.log("User: ", user);
 
-    const post = await (await fetch("https://jsonplaceholder.typicode.com/posts/" + number)).json();
+    const {data: post} = await axios("https://jsonplaceholder.typicode.com/posts/" + number);
     console.log("post: ", post);
-}
+};
+
