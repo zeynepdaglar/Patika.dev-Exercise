@@ -1,5 +1,5 @@
-//başka bir js dosyaysını dahil ediyoruz:
-// import topla from './my-module.js'; yada:
+//başka bir js dosyaysının fonsksiyonlarını dahil ediyoruz:
+// import topla from './my-module.js';  yada birden fazla varsa:
 import {topla, hello} from './my-module.js';
 
 
