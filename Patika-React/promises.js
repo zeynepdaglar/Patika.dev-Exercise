@@ -42,5 +42,24 @@ const getUsers = () => {
       resolve(data);
     });
 };
-getUsers().then( (data) => console.log(data))
-.catch( (e) => console.log(e));
+
+//verilen id ye göre postları getirmek:
+const getPosts = (post_id) => {
+    return new Promise(async (resolve, reject) => {
+        const {data} = await axios(
+            "https://jsonplaceholder.typicode.com/posts/" + post_id
+        );
+        resolve(data);
+    });
+};
+
+//verileri console üzerine istediğimiz sıra ile yazması için async bir fonksiyon oluşturduk.
+(async () => {
+    await getUsers()
+    .then( (data) => console.log("User: ", data))
+    .catch( (error) => console.log(error));
+
+    await getPosts(1)
+    .then( (data) => console.log("Post: ", data))
+    .catch( (error) => console.log(error));
+})();
