@@ -1,14 +1,15 @@
 //settimeout: vericeğimiz süre tamamlandığında bir kere çalışır, milisaniye cinsinden değer veririz
-// setTimeout( () => {
-//     console.log("merhaba");
-// }, 5000);
+//5000 -> 5 saniye
+setTimeout( () => {
+    console.log("merhaba");
+}, 5000);
 
 //verilen zaman aralığında sürekli çalışır, durmaz
-// setInterval(() => {
-//     console.log("merhaba ben her saniye çalışacağım");
-// }, 1000);
+setInterval(() => {
+    console.log("merhaba ben her saniye çalışacağım");
+}, 1000);
 
-//parametre olrak fonksiyon vermek:
+//parametre olarak fonksiyon vermek:
 const sayHello = (cb) => {
     cb();
 };
@@ -33,6 +34,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
     .then( (data) => data.json())
     .then( (post) => {
         console.log("post 1 yüklendi ",post)
+         //yukarıdaki çekme işlemi tamamlandıktan sonra:
         fetch("https://jsonplaceholder.typicode.com/posts/2")
         .then( (data) => data.json())
         .then( (post) => console.log("post 2 yüklendi ", post))
