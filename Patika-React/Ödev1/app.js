@@ -5,9 +5,10 @@ import axios from "axios";
 export default async function getData(number) {
     //gelen parametreye göre verileri çeker
     const {data: user} = await axios("https://jsonplaceholder.typicode.com/users/" + number);
-    console.log("User: ", user);
 
     const {data: post} = await axios("https://jsonplaceholder.typicode.com/posts/" + number);
+
+    console.log("User: ", user);
     console.log("post: ", post);
 };
 
