@@ -1,12 +1,17 @@
+// İçe aktar:
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+//birden fazla import işlemi:
+import {Varaible, Varaible2} from './components/Varaible-Render';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Varaible />
+    <Varaible2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
