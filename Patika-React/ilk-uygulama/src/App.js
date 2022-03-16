@@ -1,5 +1,6 @@
 // varsayılan bir component oluşturmak:
 import "./App.css";
+import User from "./components/User.js";
 // headerı kullanabilmek için buraya import etmemiz gerek
 import Header from "./components/Header";
 
@@ -11,8 +12,7 @@ function App() {
       *Headerın içerisine bir şey yazmayacaksak şu şekilde kullanırız:  */
      <div>
        <Header />
-       <h1>Helo React</h1>
-
+       <User />
         {/*Name yazısına tıklandığında inputa focus olur */}
        <label htmlFor="myinput">
           Name 
