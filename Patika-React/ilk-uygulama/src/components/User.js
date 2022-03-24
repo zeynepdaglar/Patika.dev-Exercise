@@ -57,7 +57,8 @@ User.propTypes = {
     // isRequired: zorunlu alan
     name: propTypes.string.isRequired,
     surname: propTypes.string,
-    age: propTypes.number,
+    //oneOfType: birden fazla type belirtebiliriz
+    age: propTypes.oneOfType([propTypes.number, propTypes.string]),
     isLoggedIn: propTypes.bool
 }
 //fonksiyonları dışa aktardık
