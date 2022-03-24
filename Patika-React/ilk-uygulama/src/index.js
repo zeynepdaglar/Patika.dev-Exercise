@@ -8,7 +8,6 @@ import {Varaible, Varaible2} from './components/Varaible-Render';
 import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
-    <User />
     <App />
     <Varaible />
     <Varaible2 />

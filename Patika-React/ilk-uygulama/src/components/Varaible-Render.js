@@ -12,14 +12,14 @@ function Varaible() {
     );
 };
 
-// function Varaible2() {
-//     return(
-//         <>
-//           {/* <h1>Ad-Soyad: {Name}-{Surname}</h1>*/}
-//           <h1>{isLoggedIn ? `Benim adım ${Name}, soyadım ${Surname}` : "Giriş Yapmadınız"}</h1>
-//         </>
-//     );
-// };
+function Varaible2() {
+    return(
+        <>
+          {/* <h1>Ad-Soyad: {Name}-{Surname}</h1>*/}
+          <h1>{isLoggedIn ? `Benim adım ${Name}, soyadım ${Surname}` : "Giriş Yapmadınız"}</h1>
+        </>
+    );
+};
 
 
 //birden fazla dışa aktarma işlemi:
