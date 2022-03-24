@@ -42,18 +42,23 @@ function User3({name, friends}) {
     return(
     <>
      <div>{name} Friends:</div>
-    {
-        friends.map((friend) => (
+
+    {friends &&
+     friends.map((friend) => (
         <div key={friend.id}>
            {friend.name}
         </div>
-        ))}
+    ))}
     </>);
 }
 
 // daha güvenli olması için propslarımızın tiplerini belirtmeliyiz
 User.propTypes = {
-    name: propTypes.string,
+    // isRequired: zorunlu alan
+    name: propTypes.string.isRequired,
+    surname: propTypes.string,
+    age: propTypes.number,
+    isLoggedIn: propTypes.bool
 }
 //fonksiyonları dışa aktardık
 export {

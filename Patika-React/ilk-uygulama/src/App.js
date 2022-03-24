@@ -34,9 +34,24 @@ function App() {
       *<Header> </Header> bu şekilde etiket açıp arasına istediklerimizi yazabiliriz.
       *Headerın içerisine bir şey yazmayacaksak şu şekilde kullanırız: <header /> */
      <div>
-       <User name="Robin" surname="Scherbatsky" age={25} isLoggedIn={true} friends={robinFriends}/>
-       <User2 name="Ted" surname="Mosby" age={30} isLoggedIn={true} friends={['Barney', 'Marshell', 'Robin', 'Lily']}/>
-       <User3 name="Barney" friends={barneyFriends}/>
+       <User 
+       name="Robin" 
+       surname="Scherbatsky" 
+       age={25} 
+       isLoggedIn={true} 
+       friends={robinFriends}/>
+
+       <User2 
+       name="Ted" 
+       surname="Mosby" 
+       age={30} 
+       isLoggedIn={true} 
+       friends={['Barney', 'Marshell', 'Robin', 'Lily']}/>
+
+       <User3 
+       name="Barney" 
+       friends={barneyFriends}/>
+       
        <Header />
        <label htmlFor="myinput">
           Name 
