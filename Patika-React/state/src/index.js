@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Counter from './components/counter';
+import InputExample from './components/InputExample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <InputExample />
   </React.StrictMode>,
   document.getElementById('root')
 );
