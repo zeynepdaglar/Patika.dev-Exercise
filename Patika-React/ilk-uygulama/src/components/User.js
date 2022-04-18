@@ -38,11 +38,13 @@ function User2({name, surname, age, isLoggedIn, friends}) {
     </>);
 }
 
-function User3({name, friends}) {
+function User3({name, friends, adress}) {
     return(
     <>
      <div>{name} Friends:</div>
-
+     <div> {adress.title} {adress.zip}</div>
+     <br></br>
+     
     {friends &&
      friends.map((friend) => (
         <div key={friend.id}>
@@ -50,6 +52,14 @@ function User3({name, friends}) {
         </div>
     ))}
     </>);
+}
+
+function User4(name, isLoggedIn) {
+    return(
+        <>
+            {isLoggedIn ? "Giriş Başarılı User01" : "Giriş Yapmadınız!"}
+        </>
+    )
 }
 
 // daha güvenli olması için propslarımızın tiplerini belirtmeliyiz
@@ -61,9 +71,21 @@ User.propTypes = {
     age: propTypes.oneOfType([propTypes.number, propTypes.string]),
     isLoggedIn: propTypes.bool
 }
+User3.prototype = {
+    //shape
+    adress: propTypes.shape({
+        title: propTypes.string,
+        zip: propTypes.number
+    })
+}
+User4.defaultProps = {
+    name:"User",
+    isLoggedIn:true
+}
 //fonksiyonları dışa aktardık
 export {
     User,
     User2,
-    User3
+    User3,
+    User4
 };

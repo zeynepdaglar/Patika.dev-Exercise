@@ -2,7 +2,7 @@
 // varsayılan bir component oluşturmak:
 import "./App.css";
 import React from "react";
-import {User, User2, User3} from "./components/User";
+import {User, User2, User3, User4} from "./components/User";
 // headerı kullanabilmek için buraya import etmemiz gerek
 import Header from "./components/Header";
 
@@ -29,30 +29,37 @@ const barneyFriends = [
 
 function App() {
   return (
-
      /*Header.js kısmında bir component oluşturduk bunu kullanmak için:
       *<Header> </Header> bu şekilde etiket açıp arasına istediklerimizi yazabiliriz.
       *Headerın içerisine bir şey yazmayacaksak şu şekilde kullanırız: <header /> */
      <div>
        <User 
-       name="Robin" 
-       surname="Scherbatsky" 
-       age={25} 
-       isLoggedIn={true} 
-       friends={robinFriends}/>
+         name="Robin" 
+         surname="Scherbatsky" 
+         age={25} 
+         isLoggedIn={true} 
+         friends={robinFriends}
+        />
 
        <User2 
-       name="Ted" 
-       surname="Mosby" 
-       age={30} 
-       isLoggedIn={true} 
-       friends={['Barney', 'Marshell', 'Robin', 'Lily']}/>
+         name="Ted" 
+         surname="Mosby" 
+         age={30} 
+         isLoggedIn={true} 
+         friends={['Barney', 'Marshell', 'Robin', 'Lily']}
+        />
 
        <User3 
-       name="Barney" 
-       friends={barneyFriends}/>
-       
-       <Header />
+         name="Barney" 
+         friends={barneyFriends}
+         adress={{
+           title: "Ataşehir/İstanbul",
+           zip: 343536}}
+        />
+       <br/>
+       <User4/>
+       <br/>
+       <Header /> 
        <label htmlFor="myinput">
           Name 
           <input id="myinput"/>

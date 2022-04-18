@@ -5,3 +5,6 @@ tekrar oluşturmak yerine, state değişikliğini Virtual DOM’a yansıtmaktad�
 Bu sayede gerçek DOM ile ve yeni sanal(virtual) DOM arasındaki farklılıkları tespit
 ederek, gerçek DOM’da yapılacak değişikleri hesaplar ve tek seferde sadece gerçek 
 DOM’da değişen elemanları yeniden render eder.
+
+state
+componentlerin üzerinde değerinin değişme potansiyeli olan bütün verileri tutan bir javascript objesidir.
