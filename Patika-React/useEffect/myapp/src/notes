@@ -1,0 +1,4 @@
+componentler doma mount olduğu anda componentin üzerindeki bir state
+değiştiği anda, aldığı prop değiştiği anda veya unmount olduğu anda yani 
+dom üzerinden kaldırıldığı anda  biz bu durumları yakalayıp
+o durumlara göre birtakım işlemler yaptırabiliriz
