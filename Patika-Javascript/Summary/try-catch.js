@@ -12,7 +12,7 @@ try {
     });
 }
 
-try {
+  try {
     //Çalıştırılacak kodlar
   }catch(hata) {
     //Hata yakalandığında çalışacak kodlar
