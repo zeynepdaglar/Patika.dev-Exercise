@@ -1,0 +1,2 @@
+componentler dom a mount olduğu anda (yani render işlmeinden sonra) componentin üstündeki bir state değiştiği anda veya bir prop değiştiği anda veya 
+unmount olduğu anda bu durumları  yakalayıp o durumlara göre işlemler yaptırabiliyoruz 
