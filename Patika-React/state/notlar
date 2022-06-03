@@ -2,3 +2,5 @@ state:
 componentler üzerinde değerinin değişme potansiyeli olan bütün verileri tutan js objesidir
 componentin herhangi bir anında değerinin değişme potansiyeli olan bir veri bir state olarak tanımlanabilir.
 ve bu state değiştiği andada ilgili component render edilerek değişim ekrana yansıtılır.
+
+tanımlar yapılırken camelCase kullanılır.
