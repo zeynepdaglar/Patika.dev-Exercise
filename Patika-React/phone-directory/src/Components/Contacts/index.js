@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import './style.css'
 import List from './List' //burada ayrıca dosyayı belirtmemize gerek yok list klasörünün altındakini doğrudan alır.
 import Form from './Form'
 
@@ -26,7 +27,8 @@ function Contacts() {
   }, [contacts]);
 
   return (
-    <div>
+    <div id="container">
+      <h1>Contacts</h1>
       <List contacts={contacts}/>
       <Form  addContact ={setContacts} contacts={contacts}/>
     </div>
