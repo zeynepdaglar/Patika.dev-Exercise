@@ -24,20 +24,6 @@ function list() {
 					<button className="destroy"></button>
 				</div>
 			</li>
-			<li>
-				<div className="view">
-					<input className="toggle" type="checkbox"/>
-					<label>Learn React</label>
-					<button className="destroy"></button>
-				</div>
-			</li>
-			<li>
-				<div className="view">
-					<input className="toggle" type="checkbox"/>
-					<label>Have a life!</label>
-					<button className="destroy"></button>
-				</div>
-			</li>
 		</ul>
 	</section>
 
