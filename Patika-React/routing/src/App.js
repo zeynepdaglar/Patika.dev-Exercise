@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 //Import Pages:
 import About from './components/About'
 import Users from './components/Users'
+import User from './components/User'
 import Home from './components/Home'
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
 
               <Route path="/users" element={<Users/>} />
 
-              <Route path="/" element={<Home/>} />
+              <Route path="/users/user/:id" element={<User/>} />
+
+              <Route path="/home" element={<Home/>} />
             </Routes>
           </div>
         </Router>
