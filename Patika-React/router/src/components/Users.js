@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import {Link, Switch, Route, useRouteMatch} from 'react-router-dom'
+import { Link, Switch, Route, useRouteMatch } from 'react-router-dom'
 import User from './User'
 
 function Users() {
