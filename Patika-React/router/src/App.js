@@ -8,7 +8,6 @@ import {
 import About from './components/About'
 import Home from './components/Home'
 import Users from './components/Users'
-import User from './components/User'
 
 export default function App() {
   return (
@@ -34,7 +33,6 @@ export default function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/users" component={Users} />
-          <Route path="/user/:id" component={User} />
         </Switch>
       </div>
     </Router>
