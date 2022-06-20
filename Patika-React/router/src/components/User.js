@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react'
 import {useState, useEffect} from 'react'
-import {useParams} from 'react-router-dom'
+import {useParams, Link} from 'react-router-dom'
 
 function User() {
     const [user, setUser] =useState({});
@@ -12,7 +12,7 @@ function User() {
         axios(`https://jsonplaceholder.typicode.com/users/${id}`)
         .then((res) => setUser(res.data))
         .finally(() => setLoading(false));
-    }, []);
+    }, [id]);
   return (
       <div>
           <h4>User Detail</h4>
@@ -27,9 +27,9 @@ function User() {
                <li>email: {user.email}</li>
             </ul>
           }
+          <Link to={`/user/${parseInt(id) + 1}`}>Next User({parseInt(id) +1})</Link>
       </div>
-      
-  )
+   )
 }
 
 export default User
