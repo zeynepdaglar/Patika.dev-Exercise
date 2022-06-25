@@ -12,13 +12,14 @@ function App() {
           firstName: '',
           lastName: '',
           email: '',
+          gender: ''
         }}
         onSubmit={async (values) => {
           console.log(values)
         }}
       >
       
-        { ({handleSubmit, handleChange}) => (
+        { ({handleSubmit, handleChange, values}) => (
             <form onSubmit={handleSubmit}>
             <label htmlFor="firstName">First Name</label>
             <input name="firstName" onChange={handleChange} />
@@ -37,8 +38,32 @@ function App() {
   
             <br />
             <br />
+
+            <span>Male</span>            
+            <input 
+            type="radio" 
+            name="gender" 
+            value="male"
+            onChange={handleChange} />
+
+            <span>Female</span>            
+            <input 
+            type="radio" 
+            name="gender"
+            value="female" 
+            onChange={handleChange} />
+
+
+            <br />
+            <br />
   
             <button type="submit">Submit</button>
+
+            <br />
+            <br />
+
+            <code>{ JSON.stringify(values) }</code>
+            
           </form>
           )
         }
